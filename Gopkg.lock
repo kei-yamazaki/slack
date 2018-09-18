@@ -19,6 +19,14 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:2487a7d6c9623edd9d79edada3a1e5c14b076e540ce0266321827cdd3a4837bd"
+  name = "github.com/kei-yamazaki/slack"
+  packages = ["slackutilsx"]
+  pruneopts = "UT"
+  revision = "763c67d4f458f6650057afbab5d033721b2b55db"
+
+[[projects]]
+  branch = "master"
   digest = "1:3891cc78541df6e4596b3e73978eb062d32967084069270ec881b959be5155ae"
   name = "github.com/pkg/errors"
   packages = ["."]
@@ -46,6 +54,7 @@
   analyzer-version = 1
   input-imports = [
     "github.com/gorilla/websocket",
+    "github.com/kei-yamazaki/slack/slackutilsx",
     "github.com/pkg/errors",
     "github.com/stretchr/testify/assert",
   ]
